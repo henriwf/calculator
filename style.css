@@ -76,12 +76,19 @@ button {
     padding: 10px;
     align-items: center; 
     justify-content: center; 
+    border-radius: 4px;
+    border: 1px solid rgba(122, 122, 122, 0.952);
+
 }
+
+button:hover {
+    background-color: rgb(203, 228, 236);
+  }
 
 .clear {
     flex-grow: 6;
 }
 
 #zero {
-    flex-grow: 5;
+    flex-grow: 3.7;
 }
