@@ -1,0 +1,46 @@
+div {
+    display: flex;
+}
+
+.calculator {
+    
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    max-height: 100%;
+}
+
+.display {
+    display: flex;
+    background-color: rgba(63, 134, 158, 0.488);
+    padding: 10px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 30px;
+    
+}
+.keyboard {
+    flex-direction: column;
+    background-color: beige;
+}
+
+.line1 {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.line2 {
+    background-color: orangered;
+}
+
+.line3 {
+    background-color: green;
+}
+
+.line4 {
+    background-color: grey;
+}
