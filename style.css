@@ -14,6 +14,8 @@ div {
     max-height: 100%;
     max-width: 200px;
     border-radius: 5px;
+    max-width: auto;
+    min-width: fit-content;
 }
 
 .display {
@@ -23,11 +25,21 @@ div {
     font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 30px;
     border-radius: 5px;
+    max-width: auto;
+    min-width: fit-content;
     
 }
 .keyboard {
     flex-direction: column;
     background-color: rgb(212, 208, 208);
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+.line0 {
+    display: flex;
+    background-color: rgb(212, 208, 208);
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -64,4 +76,12 @@ button {
     padding: 10px;
     align-items: center; 
     justify-content: center; 
+}
+
+.clear {
+    flex-grow: 6;
+}
+
+#zero {
+    flex-grow: 5;
 }
